@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FuelWise</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Every screen is drawn into #root by the JavaScript. -->
+<div id="root"></div>
+<div id="modalRoot"></div>
+<div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+
+<!-- Scripts load in this order: core (data + helpers) -> pages -> router -> events -> start. -->
+<script src="js/core/helpers.js"></script>
+<script src="js/core/store.js"></script>
+<script src="js/core/queries.js"></script>
+<script src="js/core/forecast.js"></script>
+<script src="js/core/alerts.js"></script>
+<script src="js/core/charts.js"></script>
+<script src="js/core/components.js"></script>
+<script src="js/core/state.js"></script>
+<script src="js/pages/dashboard.js"></script>
+<script src="js/pages/vehicles.js"></script>
+<script src="js/pages/transactions.js"></script>
+<script src="js/pages/analytics.js"></script>
+<script src="js/pages/forecasting.js"></script>
+<script src="js/pages/scenarios.js"></script>
+<script src="js/pages/reports.js"></script>
+<script src="js/pages/users.js"></script>
+<script src="js/pages/settings.js"></script>
+<script src="js/core/router.js"></script>
+<script src="js/pages/login.js"></script>
+<script src="js/core/events.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
