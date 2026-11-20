@@ -1,5 +1,3 @@
-/* Layout: fixed navy sidebar + fluid content column; cards sit on a pale ground.
-   Palette: navy (structure), one blue (actions), amber (highlights only). */
 :root {
   --font-head: 'Manrope', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
